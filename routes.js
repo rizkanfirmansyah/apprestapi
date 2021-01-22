@@ -8,4 +8,7 @@ module.exports = function(app) {
 
     app.route('/mahasiswa')
         .get(jsonme.getmahasiswa);
+
+    app.route('/mahasiswa/:id')
+        .get(jsonme.getmahasiswabyid);
 }
