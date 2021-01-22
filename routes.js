@@ -14,4 +14,9 @@ module.exports = function(app) {
 
     app.route('/insert')
         .post(jsonme.insertmahasiswa);
+    
+    app.route('/update')
+        .put(jsonme.updatemahasiswa);
+
+    app.route('/')
 }
