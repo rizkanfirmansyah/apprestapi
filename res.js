@@ -23,7 +23,7 @@ exports.nested = function(values, res) {
                 // tambahkan value ke dalam group matakuliah
                 group.matakuliah.push(item.matakuliah);
             }else{
-                group.matakuliah = [group.matakuliah, item.matakuliah];
+                group.matakuliah = [group.matakuliah, item.matakuliah];  
             }
         }else{
             akumulasikan[item.nama] = item;
