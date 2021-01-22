@@ -18,5 +18,6 @@ module.exports = function(app) {
     app.route('/update')
         .put(jsonme.updatemahasiswa);
 
-    app.route('/')
+    app.route('/delete')
+        .delete(jsonme.deletemahasiswa);
 }
