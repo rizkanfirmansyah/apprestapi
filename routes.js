@@ -5,4 +5,7 @@ module.exports = function(app) {
 
     app.route('/')
         .get(jsonme.index);
+
+    app.route('/mahasiswa')
+        .get(jsonme.getmahasiswa);
 }
