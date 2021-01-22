@@ -11,4 +11,7 @@ module.exports = function(app) {
 
     app.route('/mahasiswa/:id')
         .get(jsonme.getmahasiswabyid);
+
+    app.route('/insert')
+        .post(jsonme.insertmahasiswa);
 }
